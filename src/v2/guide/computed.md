@@ -25,7 +25,7 @@ Viết biểu thức trực tiếp trong template rất tiện, nhưng chỉ dà
 ``` html
 <div id="example">
   <p>Thông điệp ban đầu: "{{ message }}"</p>
-  <p>Thông điệp bị đảo ngược bằng tính toán (computed): "{{ reversedMessage }}"</p>
+  <p>Thông điệp bị đảo ngược bằng tính toán (computed): "{{ reversedMessage() }}"</p>
 </div>
 ```
 
